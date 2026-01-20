@@ -1,0 +1,69 @@
+# requirements.txt
+# FinTech Forensics - Anomaly Detection System
+# Python 3.8+ required
+
+# ===========================
+# Core Web Framework
+# ===========================
+streamlit>=1.28.0
+
+# ===========================
+# Data Processing & Analysis
+# ===========================
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# ===========================
+# Graph Processing
+# ===========================
+networkx>=3.1
+python-louvain>=0.16  # Community detection
+
+# ===========================
+# Machine Learning
+# ===========================
+scikit-learn>=1.3.0
+torch>=2.0.0
+torch-geometric>=2.3.0  # For advanced GNN operations (optional but recommended)
+
+# ===========================
+# Visualization
+# ===========================
+plotly>=5.17.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+kaleido>=0.2.1  # For static image export from plotly
+
+# ===========================
+# Explainability & Interpretability
+# ===========================
+shap>=0.42.0
+
+# ===========================
+# File Format Support
+# ===========================
+openpyxl>=3.1.0  # Excel .xlsx support
+xlrd>=2.0.1      # Excel .xls support (older format)
+pyarrow>=12.0.0  # Parquet support (optional)
+
+# ===========================
+# Utilities
+# ===========================
+python-dateutil>=2.8.2
+tqdm>=4.65.0  # Progress bars
+
+# ===========================
+# Report Generation (Optional)
+# ===========================
+reportlab>=4.0.0  # PDF generation
+pillow>=10.0.0    # Image processing
+
+# ===========================
+# Testing & Quality (Development)
+# ===========================
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.1.0
+mypy>=1.5.0
